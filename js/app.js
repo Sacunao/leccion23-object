@@ -15,7 +15,7 @@ window.addEventListener("load", function() {
         this.sexo = sexo;
         this.mayorDeEdad = (this.edad >= 18);
         this.presentacion = function(){
-                                return "Hola, mi nombre es " + this. nombre + ", tengo " + this.edad + "años "+ ((this.mayoDeEdad) ? "y soy mayor de edad" : "y soy menor de edad");
+                                return "Hola, mi nombre es " + this. nombre + ", tengo " + this.edad + "años "+ ((this.mayorDeEdad) ? "y soy mayor de edad" : "y soy menor de edad");
                             };
     };  
     
